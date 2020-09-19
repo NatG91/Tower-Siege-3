@@ -9,7 +9,6 @@ class Box {
     this.width = width;
     this.height = height;
     World.add(world, this.body);
-    this.Visibility=1
   }
   display(){
 if(this.body.speed<3){

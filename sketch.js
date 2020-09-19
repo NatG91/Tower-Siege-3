@@ -5,6 +5,8 @@ const Constraint = Matter.Constraint;
 
 var slingshot;
 
+var score = 0;
+
 function preload(){
 
 polygon_img=loadImage("polygon_img.png");
@@ -110,6 +112,14 @@ fill(184,66,66)
   Box7.display();
   Box17.display();
 
+  Box2.score();
+  Box3.score();
+  Box4.score();
+  Box5.score();
+  Box6.score();
+  Box7.score();
+  Box17.score();
+
   fill("pink");
   Box8.display();
   Box9.display();
@@ -117,13 +127,27 @@ fill(184,66,66)
   Box11.display();
   Box12.display();
 
+  Box8.score();
+  Box9.score();
+  Box10.score();
+  Box11.score();
+  Box12.score();
+
 fill(63,224,208);
   Box13.display();
   Box14.display();
   Box15.display(); 
 
+  Box13.score();
+  Box14.score();
+  Box15.score(); 
+
+  
+
 fill(128,128,128);
   Box16.display();
+
+  Box16.score();
 
   fill(135,206,234);
   Box18.display();
@@ -135,13 +159,25 @@ fill(128,128,128);
   //Box24.display();
   //Box25.display();
 
+  Box18.score();
+  Box19.score();
+  Box20.score();
+  Box21.score();
+  Box22.score();
+
   fill(63,224,208);
   Box26.display();
   Box27.display();
   Box28.display();
 
+  Box26.score();
+  Box27.score();
+  Box28.score();
+
   fill("pink")
   Box29.display();
+
+  Box29.score();
   //Box30.display();
   // Box31.display();
   // Box32.display();
